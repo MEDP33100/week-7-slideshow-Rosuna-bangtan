@@ -1,10 +1,11 @@
 const slidesContainer = document.querySelector('.slideshow-container');
 const quotes = [];
 const backgroundImages = [
-    'images/background1.jpg',
-    'images/background2.jpg',
-    'images/background3.jpg',
-    'images/background4.jpg',
+     'https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    'https://images.pexels.com/photos/1485894/pexels-photo-1485894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    'https://images.pexels.com/photos/1456291/pexels-photo-1456291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    'https://images.pexels.com/photos/1525041/pexels-photo-1525041.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+
 ];
 
 let currentSlide = 0;
