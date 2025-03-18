@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.slideshow-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.mySlides {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.fade {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade.active {
+    display: block;
+    opacity: 1;
+}
+
+.quote {
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
